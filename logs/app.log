@@ -1137,3 +1137,144 @@ Identify and stop the process that's listening on port 8089 or configure this ap
 2024-11-07 11:07:18 INFO  TomcatWebServer:220 - Tomcat started on port(s): 8089 (http) with context path '/SpringMVC'
 2024-11-07 11:07:18 INFO  TpAchatProjectApplication:61 - Started TpAchatProjectApplication in 0.772 seconds (JVM running for 19680.706)
 2024-11-07 11:07:18 INFO  ConditionEvaluationDeltaLoggingListener:63 - Condition evaluation unchanged
+2024-11-07 12:35:07 INFO  LocalContainerEntityManagerFactoryBean:651 - Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-11-07 12:35:07 INFO  HikariDataSource:350 - HikariPool-3 - Shutdown initiated...
+2024-11-07 12:35:07 INFO  HikariDataSource:352 - HikariPool-3 - Shutdown completed.
+2024-11-07 12:35:10 INFO  TpAchatProjectApplication:55 - Starting TpAchatProjectApplication using Java 11.0.24 on DESKTOP-T2CA48S with PID 26956 (C:\Users\Mega-PC\Desktop\DevOps\projet3 spring-angular\tpAchatProject\target\classes started by Chaima-Bf in C:\Users\Mega-PC\Desktop\DevOps\projet3 spring-angular\tpAchatProject)
+2024-11-07 12:35:10 DEBUG TpAchatProjectApplication:56 - Running with Spring Boot v2.5.3, Spring v5.3.9
+2024-11-07 12:35:10 INFO  TpAchatProjectApplication:659 - No active profile set, falling back to default profiles: default
+2024-11-07 12:35:10 INFO  RepositoryConfigurationDelegate:132 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-11-07 12:35:10 INFO  RepositoryConfigurationDelegate:201 - Finished Spring Data repository scanning in 14 ms. Found 1 JPA repository interfaces.
+2024-11-07 12:35:10 INFO  TomcatWebServer:108 - Tomcat initialized with port(s): 8089 (http)
+2024-11-07 12:35:10 INFO  Http11NioProtocol:173 - Initializing ProtocolHandler ["http-nio-8089"]
+2024-11-07 12:35:10 INFO  StandardService:173 - Starting service [Tomcat]
+2024-11-07 12:35:10 INFO  StandardEngine:173 - Starting Servlet engine: [Apache Tomcat/9.0.50]
+2024-11-07 12:35:10 INFO  [/SpringMVC]:173 - Initializing Spring embedded WebApplicationContext
+2024-11-07 12:35:10 INFO  ServletWebServerApplicationContext:290 - Root WebApplicationContext: initialization completed in 209 ms
+2024-11-07 12:35:10 INFO  LogHelper:31 - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-11-07 12:35:10 INFO  HikariDataSource:110 - HikariPool-4 - Starting...
+2024-11-07 12:35:10 INFO  HikariDataSource:123 - HikariPool-4 - Start completed.
+2024-11-07 12:35:10 INFO  Dialect:175 - HHH000400: Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+2024-11-07 12:35:10 INFO  JtaPlatformInitiator:52 - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2024-11-07 12:35:10 INFO  LocalContainerEntityManagerFactoryBean:437 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-11-07 12:35:10 WARN  JpaBaseConfiguration$JpaWebConfiguration:219 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-11-07 12:35:10 INFO  OptionalLiveReloadServer:58 - LiveReload server is running on port 35729
+2024-11-07 12:35:10 INFO  Http11NioProtocol:173 - Starting ProtocolHandler ["http-nio-8089"]
+2024-11-07 12:35:10 INFO  TomcatWebServer:220 - Tomcat started on port(s): 8089 (http) with context path '/SpringMVC'
+2024-11-07 12:35:10 INFO  TpAchatProjectApplication:61 - Started TpAchatProjectApplication in 0.569 seconds (JVM running for 24952.961)
+2024-11-07 12:35:10 INFO  ConditionEvaluationDeltaLoggingListener:63 - Condition evaluation unchanged
+2024-11-07 12:35:12 INFO  LocalContainerEntityManagerFactoryBean:651 - Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-11-07 12:35:12 INFO  HikariDataSource:350 - HikariPool-4 - Shutdown initiated...
+2024-11-07 12:35:12 INFO  HikariDataSource:352 - HikariPool-4 - Shutdown completed.
+2024-11-07 12:35:12 INFO  TpAchatProjectApplication:55 - Starting TpAchatProjectApplication using Java 11.0.24 on DESKTOP-T2CA48S with PID 26956 (C:\Users\Mega-PC\Desktop\DevOps\projet3 spring-angular\tpAchatProject\target\classes started by Chaima-Bf in C:\Users\Mega-PC\Desktop\DevOps\projet3 spring-angular\tpAchatProject)
+2024-11-07 12:35:12 DEBUG TpAchatProjectApplication:56 - Running with Spring Boot v2.5.3, Spring v5.3.9
+2024-11-07 12:35:12 INFO  TpAchatProjectApplication:659 - No active profile set, falling back to default profiles: default
+2024-11-07 12:35:12 WARN  OperateurServiceImpl:38 - Deleting operateur with ID: 1
+2024-11-07 12:35:12 INFO  OperateurServiceImpl:41 - Operateur with ID: 1 deleted successfully
+2024-11-07 12:35:12 INFO  OperateurServiceImpl:49 - Updating operateur: com.esprit.examen.entities.Operateur@36c07c75
+2024-11-07 12:35:12 DEBUG OperateurServiceImpl:51 - Operateur updated with ID: 1
+2024-11-07 12:35:12 INFO  OperateurServiceImpl:57 - Retrieving operateur with ID: 1
+2024-11-07 12:35:12 DEBUG OperateurServiceImpl:62 - Found operateur: com.esprit.examen.entities.Operateur@5bfc79cb
+2024-11-07 12:35:12 INFO  OperateurServiceImpl:30 - Adding a new operateur: com.esprit.examen.entities.Operateur@19662208
+2024-11-07 12:35:12 DEBUG OperateurServiceImpl:32 - Operateur saved with ID: 1
+2024-11-07 12:35:12 INFO  OperateurServiceImpl:22 - Retrieving all operateurs
+2024-11-07 12:35:12 DEBUG OperateurServiceImpl:24 - Found 1 operateurs
+2024-11-07 12:35:12 INFO  RepositoryConfigurationDelegate:132 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-11-07 12:35:12 INFO  RepositoryConfigurationDelegate:201 - Finished Spring Data repository scanning in 19 ms. Found 10 JPA repository interfaces.
+2024-11-07 12:35:12 INFO  TomcatWebServer:108 - Tomcat initialized with port(s): 8089 (http)
+2024-11-07 12:35:12 INFO  Http11NioProtocol:173 - Initializing ProtocolHandler ["http-nio-8089"]
+2024-11-07 12:35:12 INFO  StandardService:173 - Starting service [Tomcat]
+2024-11-07 12:35:12 INFO  StandardEngine:173 - Starting Servlet engine: [Apache Tomcat/9.0.50]
+2024-11-07 12:35:12 INFO  [/SpringMVC]:173 - Initializing Spring embedded WebApplicationContext
+2024-11-07 12:35:12 INFO  ServletWebServerApplicationContext:290 - Root WebApplicationContext: initialization completed in 210 ms
+2024-11-07 12:35:12 INFO  LogHelper:31 - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-11-07 12:35:12 INFO  HikariDataSource:110 - HikariPool-5 - Starting...
+2024-11-07 12:35:12 INFO  HikariDataSource:123 - HikariPool-5 - Start completed.
+2024-11-07 12:35:12 INFO  Dialect:175 - HHH000400: Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+2024-11-07 12:35:12 INFO  JtaPlatformInitiator:52 - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2024-11-07 12:35:12 INFO  LocalContainerEntityManagerFactoryBean:437 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-11-07 12:35:12 WARN  JpaBaseConfiguration$JpaWebConfiguration:219 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-11-07 12:35:12 INFO  OptionalLiveReloadServer:58 - LiveReload server is running on port 35729
+2024-11-07 12:35:12 INFO  Http11NioProtocol:173 - Starting ProtocolHandler ["http-nio-8089"]
+2024-11-07 12:35:12 INFO  TomcatWebServer:220 - Tomcat started on port(s): 8089 (http) with context path '/SpringMVC'
+2024-11-07 12:35:13 INFO  TpAchatProjectApplication:61 - Started TpAchatProjectApplication in 0.61 seconds (JVM running for 24955.081)
+2024-11-07 12:35:13 INFO  ConditionEvaluationDeltaLoggingListener:63 - Condition evaluation unchanged
+2024-11-07 12:46:52 INFO  LocalContainerEntityManagerFactoryBean:651 - Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-11-07 12:46:52 INFO  HikariDataSource:350 - HikariPool-5 - Shutdown initiated...
+2024-11-07 12:46:52 INFO  HikariDataSource:352 - HikariPool-5 - Shutdown completed.
+2024-11-07 12:46:56 INFO  TpAchatProjectApplication:55 - Starting TpAchatProjectApplication using Java 11.0.24 on DESKTOP-T2CA48S with PID 26956 (C:\Users\Mega-PC\Desktop\DevOps\projet3 spring-angular\tpAchatProject\target\classes started by Chaima-Bf in C:\Users\Mega-PC\Desktop\DevOps\projet3 spring-angular\tpAchatProject)
+2024-11-07 12:46:56 DEBUG TpAchatProjectApplication:56 - Running with Spring Boot v2.5.3, Spring v5.3.9
+2024-11-07 12:46:56 INFO  TpAchatProjectApplication:659 - No active profile set, falling back to default profiles: default
+2024-11-07 12:46:56 INFO  RepositoryConfigurationDelegate:132 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-11-07 12:46:56 INFO  RepositoryConfigurationDelegate:201 - Finished Spring Data repository scanning in 28 ms. Found 10 JPA repository interfaces.
+2024-11-07 12:46:56 INFO  TomcatWebServer:108 - Tomcat initialized with port(s): 8089 (http)
+2024-11-07 12:46:56 INFO  Http11NioProtocol:173 - Initializing ProtocolHandler ["http-nio-8089"]
+2024-11-07 12:46:56 INFO  StandardService:173 - Starting service [Tomcat]
+2024-11-07 12:46:56 INFO  StandardEngine:173 - Starting Servlet engine: [Apache Tomcat/9.0.50]
+2024-11-07 12:46:56 INFO  [/SpringMVC]:173 - Initializing Spring embedded WebApplicationContext
+2024-11-07 12:46:56 INFO  ServletWebServerApplicationContext:290 - Root WebApplicationContext: initialization completed in 249 ms
+2024-11-07 12:46:56 INFO  LogHelper:31 - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-11-07 12:46:56 INFO  HikariDataSource:110 - HikariPool-6 - Starting...
+2024-11-07 12:46:56 INFO  HikariDataSource:123 - HikariPool-6 - Start completed.
+2024-11-07 12:46:56 INFO  Dialect:175 - HHH000400: Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+2024-11-07 12:46:56 INFO  JtaPlatformInitiator:52 - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2024-11-07 12:46:56 INFO  LocalContainerEntityManagerFactoryBean:437 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-11-07 12:46:56 WARN  AnnotationConfigServletWebServerApplicationContext:591 - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'factureRestController': Unsatisfied dependency expressed through field 'factureService'; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'com.esprit.examen.services.IFactureService' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+2024-11-07 12:46:56 INFO  LocalContainerEntityManagerFactoryBean:651 - Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-11-07 12:46:56 INFO  HikariDataSource:350 - HikariPool-6 - Shutdown initiated...
+2024-11-07 12:46:56 INFO  HikariDataSource:352 - HikariPool-6 - Shutdown completed.
+2024-11-07 12:46:56 INFO  StandardService:173 - Stopping service [Tomcat]
+2024-11-07 12:46:56 INFO  ConditionEvaluationReportLoggingListener:136 - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2024-11-07 12:46:56 ERROR LoggingFailureAnalysisReporter:40 - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Field factureService in com.esprit.examen.controllers.FactureRestController required a bean of type 'com.esprit.examen.services.IFactureService' that could not be found.
+
+The injection point has the following annotations:
+	- @org.springframework.beans.factory.annotation.Autowired(required=true)
+
+
+Action:
+
+Consider defining a bean of type 'com.esprit.examen.services.IFactureService' in your configuration.
+
+2024-11-07 12:46:58 INFO  TpAchatProjectApplication:55 - Starting TpAchatProjectApplication using Java 11.0.24 on DESKTOP-T2CA48S with PID 26956 (C:\Users\Mega-PC\Desktop\DevOps\projet3 spring-angular\tpAchatProject\target\classes started by Chaima-Bf in C:\Users\Mega-PC\Desktop\DevOps\projet3 spring-angular\tpAchatProject)
+2024-11-07 12:46:58 DEBUG TpAchatProjectApplication:56 - Running with Spring Boot v2.5.3, Spring v5.3.9
+2024-11-07 12:46:58 INFO  TpAchatProjectApplication:659 - No active profile set, falling back to default profiles: default
+2024-11-07 12:46:58 WARN  OperateurServiceImpl:38 - Deleting operateur with ID: 1
+2024-11-07 12:46:58 INFO  OperateurServiceImpl:41 - Operateur with ID: 1 deleted successfully
+2024-11-07 12:46:58 INFO  OperateurServiceImpl:49 - Updating operateur: com.esprit.examen.entities.Operateur@36c07c75
+2024-11-07 12:46:58 DEBUG OperateurServiceImpl:51 - Operateur updated with ID: 1
+2024-11-07 12:46:58 INFO  OperateurServiceImpl:57 - Retrieving operateur with ID: 1
+2024-11-07 12:46:58 DEBUG OperateurServiceImpl:62 - Found operateur: com.esprit.examen.entities.Operateur@5bfc79cb
+2024-11-07 12:46:58 INFO  OperateurServiceImpl:30 - Adding a new operateur: com.esprit.examen.entities.Operateur@19662208
+2024-11-07 12:46:58 DEBUG OperateurServiceImpl:32 - Operateur saved with ID: 1
+2024-11-07 12:46:58 INFO  OperateurServiceImpl:22 - Retrieving all operateurs
+2024-11-07 12:46:58 DEBUG OperateurServiceImpl:24 - Found 1 operateurs
+2024-11-07 12:46:58 INFO  RepositoryConfigurationDelegate:132 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-11-07 12:46:58 INFO  RepositoryConfigurationDelegate:201 - Finished Spring Data repository scanning in 16 ms. Found 10 JPA repository interfaces.
+2024-11-07 12:46:58 INFO  TomcatWebServer:108 - Tomcat initialized with port(s): 8089 (http)
+2024-11-07 12:46:58 INFO  Http11NioProtocol:173 - Initializing ProtocolHandler ["http-nio-8089"]
+2024-11-07 12:46:58 INFO  StandardService:173 - Starting service [Tomcat]
+2024-11-07 12:46:58 INFO  StandardEngine:173 - Starting Servlet engine: [Apache Tomcat/9.0.50]
+2024-11-07 12:46:58 INFO  [/SpringMVC]:173 - Initializing Spring embedded WebApplicationContext
+2024-11-07 12:46:58 INFO  ServletWebServerApplicationContext:290 - Root WebApplicationContext: initialization completed in 200 ms
+2024-11-07 12:46:58 INFO  LogHelper:31 - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-11-07 12:46:58 INFO  HikariDataSource:110 - HikariPool-7 - Starting...
+2024-11-07 12:46:58 INFO  HikariDataSource:123 - HikariPool-7 - Start completed.
+2024-11-07 12:46:58 INFO  Dialect:175 - HHH000400: Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+2024-11-07 12:46:58 INFO  JtaPlatformInitiator:52 - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2024-11-07 12:46:58 INFO  LocalContainerEntityManagerFactoryBean:437 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-11-07 12:46:58 WARN  JpaBaseConfiguration$JpaWebConfiguration:219 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-11-07 12:46:58 INFO  OptionalLiveReloadServer:58 - LiveReload server is running on port 35729
+2024-11-07 12:46:58 INFO  Http11NioProtocol:173 - Starting ProtocolHandler ["http-nio-8089"]
+2024-11-07 12:46:58 INFO  TomcatWebServer:220 - Tomcat started on port(s): 8089 (http) with context path '/SpringMVC'
+2024-11-07 12:46:58 INFO  TpAchatProjectApplication:61 - Started TpAchatProjectApplication in 0.613 seconds (JVM running for 25661.028)
+2024-11-07 12:46:58 INFO  ConditionEvaluationDeltaLoggingListener:63 - Condition evaluation unchanged
