@@ -2,7 +2,7 @@ version: '3.8'
 
 services:
   backend:
-    image: chaimabf/tpachatproject-1.0.jar
+    image: chaimabf/tpachatproject-1.0.jar:1.0
     restart: on-failure
     stdin_open: true
     tty: true
