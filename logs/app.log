@@ -1040,3 +1040,37 @@ Identify and stop the process that's listening on port 8089 or configure this ap
 2024-11-07 05:39:09 INFO  LocalContainerEntityManagerFactoryBean:651 - Closing JPA EntityManagerFactory for persistence unit 'default'
 2024-11-07 05:39:09 INFO  HikariDataSource:350 - HikariPool-1 - Shutdown initiated...
 2024-11-07 05:39:09 INFO  HikariDataSource:352 - HikariPool-1 - Shutdown completed.
+2024-11-07 05:39:18 INFO  Version:21 - HV000001: Hibernate Validator 6.2.0.Final
+2024-11-07 05:39:18 INFO  TpAchatProjectApplication:55 - Starting TpAchatProjectApplication using Java 11.0.24 on DESKTOP-T2CA48S with PID 26956 (C:\Users\Mega-PC\Desktop\DevOps\projet3 spring-angular\tpAchatProject\target\classes started by Chaima-Bf in C:\Users\Mega-PC\Desktop\DevOps\projet3 spring-angular\tpAchatProject)
+2024-11-07 05:39:18 DEBUG TpAchatProjectApplication:56 - Running with Spring Boot v2.5.3, Spring v5.3.9
+2024-11-07 05:39:18 INFO  TpAchatProjectApplication:659 - No active profile set, falling back to default profiles: default
+2024-11-07 05:39:18 INFO  DevToolsPropertyDefaultsPostProcessor:255 - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-11-07 05:39:18 INFO  DevToolsPropertyDefaultsPostProcessor:255 - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-11-07 05:39:19 INFO  RepositoryConfigurationDelegate:132 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-11-07 05:39:19 INFO  RepositoryConfigurationDelegate:201 - Finished Spring Data repository scanning in 38 ms. Found 10 JPA repository interfaces.
+2024-11-07 05:39:19 INFO  TomcatWebServer:108 - Tomcat initialized with port(s): 8089 (http)
+2024-11-07 05:39:19 INFO  Http11NioProtocol:173 - Initializing ProtocolHandler ["http-nio-8089"]
+2024-11-07 05:39:19 INFO  StandardService:173 - Starting service [Tomcat]
+2024-11-07 05:39:19 INFO  StandardEngine:173 - Starting Servlet engine: [Apache Tomcat/9.0.50]
+2024-11-07 05:39:19 INFO  [/SpringMVC]:173 - Initializing Spring embedded WebApplicationContext
+2024-11-07 05:39:19 INFO  ServletWebServerApplicationContext:290 - Root WebApplicationContext: initialization completed in 809 ms
+2024-11-07 05:39:19 INFO  LogHelper:31 - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-11-07 05:39:19 INFO  Version:44 - HHH000412: Hibernate ORM core version 5.4.32.Final
+2024-11-07 05:39:19 INFO  Version:56 - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2024-11-07 05:39:19 INFO  HikariDataSource:110 - HikariPool-1 - Starting...
+2024-11-07 05:39:19 INFO  HikariDataSource:123 - HikariPool-1 - Start completed.
+2024-11-07 05:39:19 INFO  Dialect:175 - HHH000400: Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+2024-11-07 05:39:20 INFO  JtaPlatformInitiator:52 - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2024-11-07 05:39:20 INFO  LocalContainerEntityManagerFactoryBean:437 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-11-07 05:39:20 WARN  JpaBaseConfiguration$JpaWebConfiguration:219 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-11-07 05:39:20 INFO  OptionalLiveReloadServer:58 - LiveReload server is running on port 35729
+2024-11-07 05:39:20 INFO  Http11NioProtocol:173 - Starting ProtocolHandler ["http-nio-8089"]
+2024-11-07 05:39:20 INFO  TomcatWebServer:220 - Tomcat started on port(s): 8089 (http) with context path '/SpringMVC'
+2024-11-07 05:39:20 INFO  TpAchatProjectApplication:61 - Started TpAchatProjectApplication in 2.244 seconds (JVM running for 2.601)
+2024-11-07 05:40:57 INFO  [/SpringMVC]:173 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-11-07 05:40:57 INFO  DispatcherServlet:525 - Initializing Servlet 'dispatcherServlet'
+2024-11-07 05:40:57 INFO  DispatcherServlet:547 - Completed initialization in 1 ms
+2024-11-07 05:40:57 INFO  OperateurServiceImpl:30 - Adding a new operateur: com.esprit.examen.entities.Operateur@7d390a7e
+2024-11-07 05:40:57 DEBUG OperateurServiceImpl:32 - Operateur saved with ID: 1
+2024-11-07 05:40:59 INFO  OperateurServiceImpl:30 - Adding a new operateur: com.esprit.examen.entities.Operateur@4d42409f
+2024-11-07 05:40:59 DEBUG OperateurServiceImpl:32 - Operateur saved with ID: 2
