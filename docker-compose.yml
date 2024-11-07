@@ -1,53 +1,33 @@
-version: '3.9'
+version: '3.8'
 
 services:
-  mysqldb:
-    image: mysql:5.7
-    restart: unless-stopped
-    container_name: mysqldb
-    environment:
-      - MYSQL_ROOT_PASSWORD=
-      - MYSQL_ALLOW_EMPTY_PASSWORD=yes
-      - MYSQL_DATABASE=tpachato
-    ports:
-      - 3306:3306
-    volumes:
-      - db:/var/lib/mysql
-    networks:
-      - app-network
-
-  app:
-    build:
-      context: .
-      dockerfile: Dockerfile
+  backend:
     image: chaimabf/tpachatproject-1.0.jar
-    container_name: back
     restart: on-failure
-    depends_on:
-      - mysqldb
-    ports:
-      - '8089:8089'
-    command: ["java","-jar","target/tpAchatProject-1.0.jar"]
-
-    environment:
-      SPRING_APPLICATION_JSON: '{
-        "spring.datasource.url": "jdbc:mysql://mysqldb:3306/tpachato?createDatabaseIfNotExist=true",
-        "spring.datasource.username": "root",
-        "spring.datasource.password": null,
-        "spring.jpa.properties.hibernate.dialect": "org.hibernate.dialect.MySQL5InnoDBDialect",
-        "spring.jpa.hibernate.ddl-auto": "update"
-      }'
     stdin_open: true
     tty: true
-    networks:
-      - app-network
+    ports:
+      - "8089:8089"
+    environment:
+      SPRING_DATASOURCE_URL: jdbc:mysql://db:3306/devops?useUnicode=true&useJDBCCompliantTimezoneShift=true&useLegacyDatetimeCode=false&serverTimezone=UTC
+      SPRING_DATASOURCE_USERNAME: root
+      SPRING_DATASOURCE_PASSWORD:   # Leave empty for no password
+      SPRING_JPA_HIBERNATE_DDL_AUTO: update
+      SPRING_JPA_SHOW_SQL: true
+      SPRING_JPA_PROPERTIES_HIBERNATE_DIALECT: org.hibernate.dialect.MySQL5Dialect
+    depends_on:
+      - db
 
-networks:
-  app-network:
-    driver: bridge
+  db:
+    image: mysql:5.7
+    restart: unless-stopped
+    environment:
+      MYSQL_DATABASE: tpachato
+      MYSQL_ROOT_PASSWORD: ""
+      MYSQL_ALLOW_EMPTY_PASSWORD: yes
+    volumes:
+      - db_data:/var/lib/mysql
+
 
 volumes:
-  db:
-
-
-
+  db_data:
